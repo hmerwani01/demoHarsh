@@ -1,14 +1,22 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "news_sdk": {
+        "appBundleId": "au.com.nlm.tasteapp",
+        "appVersion": "1.6.2",
+        "app_update_notification": {
+            "version": "1.6.2",
+            "title": "Update available",
+            "message": "A newer version of The Taste app is available.",
+            "is_dismiss_allowed": true
+        }
+    },
+    "comments": {
+        "show_comments": true,
+        "show_aggregate_rating": true
+    },"nielsen": {
+        "nielsen_enabled": false
+    },"maintenance": {
+        "enable_maintenance_page": false,
+        "webview_url": "https://resourcesssl.newscdn.com.au/cs/dna_apps/taste_app/prod/maintenance.html",
+        "preference_sync_error": "Apologies, due to maintenance your changes have not been synchonised"
+    }
 }
