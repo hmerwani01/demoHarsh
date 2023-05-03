@@ -15,7 +15,7 @@
     },"nielsen": {
         "nielsen_enabled": false
     },"maintenance": {
-        "enable_maintenance_page": true,
+        "enable_maintenance_page": false,
         "webview_url": "https://resourcesssl.newscdn.com.au/cs/dna_apps/taste_app/prod/maintenance.html",
         "preference_sync_error": "Apologies, due to maintenance your changes have not been synchonised"
     }
